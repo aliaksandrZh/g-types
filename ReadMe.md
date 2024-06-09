@@ -19,4 +19,5 @@ Original Object Structure               | Flattened Object Structure
 ```
 
 `NestedKeys` - Returns all keys of object
+
 `NestedValues` - Returns types of all object properties
