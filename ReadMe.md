@@ -1,6 +1,7 @@
 # Generics from practice
 
 `First` - Gets type of the first element of the array
+
 `Last` - Gets type of the last element of the array
 
 `Flatten` - Flats your object
