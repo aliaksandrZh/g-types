@@ -3,6 +3,7 @@
  * Return first item of the array
  */
 export type First<T> = T extends [infer U, ...infer rest] ? U : never;
+
 /**
  * @description
  * Return last item of the array
