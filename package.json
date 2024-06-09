@@ -2,7 +2,14 @@
   "name": "g-types",
   "version": "1.0.0",
   "type": "module",
-  "description": "Typescripy generics",
+  "keywords": [
+    "typescript",
+    "ts",
+    "type",
+    "types",
+    "generics"
+  ],
+  "description": "Typescript generics from practice",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
