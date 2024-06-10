@@ -1,10 +1,10 @@
 # Generics from practice
 
-`First` - Gets type of the first element of the array
+`First<T>` - Gets type of the first element of the array
 
-`Last` - Gets type of the last element of the array
+`Last<T>` - Gets type of the last element of the array
 
-`Flatten` - Flats your object
+`Flatten<T>` - Flats your object
 
 ```
 Original Object Structure               | Flattened Object Structure
@@ -18,6 +18,24 @@ Original Object Structure               | Flattened Object Structure
 
 ```
 
-`NestedKeys` - Returns all keys of object
+`NestedKeys<T>` - Returns all keys of object
 
-`NestedValues` - Returns types of all object properties
+`NestedValues<T>` - Returns types of all object properties
+
+`Zip<T, U>` - [a, b], [c, d] -> [[a, c], [b,d]]
+
+`DeepWritable<T>` - Removes a readonly modifier from properties
+
+`DeepReadonly<T>` - Returns a readonly object
+
+`FunctionArguments<T>` - Returns type of the function's arguments
+
+`Concat<T, U>` - Return concatenated array
+
+### Guards
+
+- `IsString<T>`
+- `IsNumber<T>`
+- `IsBoolean<T>`
+- `IsFunction<T>`
+- `IsObject<T>`
