@@ -1,5 +1,7 @@
 # Generics from practice
 
+## npm i g-types
+
 `First<T>` - Gets type of the first element of the array
 
 `Last<T>` - Gets type of the last element of the array
